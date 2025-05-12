@@ -86,4 +86,5 @@ app.MapPost("/prompt/{text}", async (
 
 app.UseCors("AllowClient");
 
+
 app.Run();
