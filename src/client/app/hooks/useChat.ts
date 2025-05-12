@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import axios, { AxiosError } from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL
+// const API_URL = process.env.NEXT_PUBLIC_API_URL
+const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyD3nxz_Rfe8TdNIs_vbRYPz8nRt_znrPtc"
 
 type Message = {
   author: string
